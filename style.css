@@ -1,0 +1,165 @@
+*{
+ box-sizing: border-box;
+ padding: 0; margin: 0;
+}
+
+/*Div-Class-Selector*/
+ 
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F4FFF1;
+    margin-bottom: 200px;
+}
+
+.selector{
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    height: 100vh;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.selector1{
+    width: 55%;
+    height: 63vh;
+    padding-right: 10px;
+}
+
+.selector2{
+    width: 45%;
+    height: 63vh;
+    background: #F4FFF1 url(./image/background.png) no-repeat fixed;
+    background-size: cover;
+    padding: 25px;
+    text-align: center;
+    align-content: center;
+    border: 5px dotted #03426D;
+    border-radius: 20px;
+}
+
+.hind-siliguri-bold{
+    font-family: "Hind Siliguri", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.div1{
+    border: 5px solid #fff; border-radius: 10px;
+    outline: 3px dotted #0889B5;
+}
+
+.div2{
+    background-color: #0889B5;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 3px;
+    padding: 10px;
+    color: #F4FFF1;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn button{
+    border: none;
+}
+
+.link a{
+    background-color:#03426D;
+    color:#F4FFF1; text-align: center; text-decoration: none; font-size: 21px; font-weight: bold; font-style: normal;
+    padding: 10px;
+    border: 5px solid #03426D; border-radius: 10px;
+}
+
+.btn button a{
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.btn button:hover a{
+    background-color: transparent;
+    color: #03426D;;
+    /*border: 5px solid #03426D; border-radius: 10px;*/
+}
+
+
+/*Div-Class-Container*/
+
+.container-parent{
+    display: flex;
+    /*flex-direction: row-reverse;
+    flex-wrap: nowrap;*/
+    flex-flow: row-reverse nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto; margin-bottom: 300px;
+    padding: 10px;
+    background: rgb(255, 187, 0) url(./image/Islamic\ Cloth\ 2.webp) repeat-y fixed;
+    background-size: contain;
+    width: 1140px;
+    max-width: 100%;
+    height: 63vh;
+    max-height: 100%;
+    border: 5px dotted #F4FFF1;
+    outline: 5px solid rgb(255, 196, 0);
+}
+
+.div{
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    width: 350px;
+    max-width: 100%;
+    height: 430px;
+    max-height: 100%;
+}
+
+.hind-siliguri-regular{
+    font-family: "Hind Siliguri", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container1{
+    background-color: #03426D;
+    border: 1px solid #fff;
+    outline: 1px dotted #03426D;
+    order: 2;
+}
+
+.div3{
+    background-color: #0889B5;
+    margin: 15px; padding: 15px;
+    color: #000;
+}
+
+.container2{
+    background-color: #0889B5;
+    border: 1px solid #fff;
+    outline: 1px dotted #0889B5;
+    order: 1;
+}
+
+.div4{
+    background-color: #03426D;
+    margin: 15px; padding: 15px;
+    color: #F4FFF1;
+}
+
+.container3{
+    background-color: #195c07;
+    border: 1px solid #fff;
+    outline: 1px dotted #195c07;
+    order: 3;
+}
+
+.div5{
+    background-color: #fff;
+    margin: 15px; padding: 15px;
+    color: #000;
+}
