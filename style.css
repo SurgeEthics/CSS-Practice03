@@ -164,3 +164,9 @@
     color: #000000;
 }
 
+.heading2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
