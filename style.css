@@ -165,8 +165,6 @@
 }
 
 .heading2{
-    width: 300px;
-    text-align: center;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
