@@ -170,3 +170,23 @@
     text-overflow: ellipsis;
 }
 
+.grid_container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 300px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1140px;
+}
+
+.grid_container>div{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+}
